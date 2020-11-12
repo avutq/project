@@ -12,8 +12,8 @@ import {
   StartUp,
 } from "../styles/Banner";
 
-import FemaleImage from "../../static/fp.jpg";
-import StartupImage from "../../static/sp.jpg";
+import FemaleImage from "../../public/fp.jpg";
+import StartupImage from "../../public/sp.jpg";
 
 function Banner() {
   return (

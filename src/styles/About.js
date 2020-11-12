@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const AboutContainer = styled.div`
- padding-bottom: 120px;
+  padding-bottom: 120px;
 `;
-
 
 export const CenteredText = styled.div`
   padding: 10px 120px 10px 120px;
