@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         url('../../fonts/ProximaNovaBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-    font-display: block;
+   
   }
 
   @font-face {
@@ -17,7 +17,7 @@ const GlobalStyle = createGlobalStyle`
         url('../../fonts/ProximaNovaThin.woff') format('woff');
     font-weight: light;
     font-style: normal;
-    font-display: block;
+   
   }
 
   @font-face {
@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
         url('../../fonts/ProximaNovaRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-    font-display: block;
+   
   }
 
 html {
