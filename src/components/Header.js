@@ -11,7 +11,7 @@ import {
 function Header() {
   return (
     <div className="container">
-      <Fade delay={800}>
+      <Fade>
         <FlexContainer>
           <Logo>
             <Circle />

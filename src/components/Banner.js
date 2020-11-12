@@ -18,7 +18,7 @@ import StartupImage from "../../static/sp.jpg";
 function Banner() {
   return (
     <div className="container-full">
-      <Fade delay={1000}>
+      <Fade>
         <BannerContainer>
           <BannerStartups>
             <CenteredBanner>
