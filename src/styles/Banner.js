@@ -55,6 +55,7 @@ export const MainText = styled.div`
 export const BannerCard = styled.div`
   padding: 15px;
   background: white;
+  border-radius: 10px;
 `;
 
 export const SubText = styled.div`
@@ -77,6 +78,7 @@ export const FemaleProfessional = styled.img`
   z-index: -10;
   bottom: -10px;
   right: -40px;
+  border-radius: 10px;
 `;
 
 export const StartUp = styled.img`
@@ -85,4 +87,5 @@ export const StartUp = styled.img`
   z-index: -10;
   bottom: -20px;
   left: -10px;
+  border-radius: 10px;
 `;
