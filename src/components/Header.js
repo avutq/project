@@ -1,5 +1,5 @@
 import React from "react";
-
+import Fade from "react-reveal/Fade";
 import {
   FlexContainer,
   Logo,
@@ -11,17 +11,19 @@ import {
 function Header() {
   return (
     <div className="container">
-      <FlexContainer>
-        <Logo>
-          <Circle />
-          <span>Project</span>
-        </Logo>
+      <Fade delay={800}>
+        <FlexContainer>
+          <Logo>
+            <Circle />
+            <span>Project</span>
+          </Logo>
 
-        <MenuContainer>
-          <MenuItem>About the project</MenuItem>
-          <MenuItem>Created by Avuteq</MenuItem>
-        </MenuContainer>
-      </FlexContainer>
+          <MenuContainer>
+            <MenuItem>About the project</MenuItem>
+            <MenuItem>Created by Avuteq</MenuItem>
+          </MenuContainer>
+        </FlexContainer>
+      </Fade>
     </div>
   );
 }
