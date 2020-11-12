@@ -8,7 +8,6 @@ const GlobalStyle = createGlobalStyle`
         url('../../fonts/ProximaNovaBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
-   
   }
 
   @font-face {
