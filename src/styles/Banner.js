@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const BannerContainer = styled.div`
-  margin-top: 30px;
+ 
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -11,13 +11,16 @@ export const BannerContainer = styled.div`
 
 export const BannerStartups = styled.div`
   position: relative;
+  background: #CAD0D3;
   width: 50%;
   height: 100%;
-  border: 1px solid #ecedef;
+  border: 5px solid white;
+  border-radius: 18px;
+  margin: 10px;
   transition: 0.3s;
 
   :hover {
-    background: #ecedef;
+    background: #DCECF9;
     cursor: pointer;
   }
 `;
@@ -32,13 +35,16 @@ export const CenteredBanner = styled.div`
 export const BannerProfessionals = styled.div`
   position: relative;
   width: 50%;
+  background: #80BB96;
+  margin: 10px;
+  border-radius: 18px;
   height: 100%;
   border: 1px solid #ecedef;
   border-left: none;
   transition: 0.3s;
 
   :hover {
-    background: #ecedef;
+    background: #DCECF9;
     cursor: pointer;
   }
 `;
@@ -46,8 +52,7 @@ export const BannerProfessionals = styled.div`
 export const MainText = styled.div`
   font-size: 41px;
   font-weight: bold;
-  background: #117259;
-  color: white;
+  color: black;
   width: 450px;
   padding: 5px;
 `;

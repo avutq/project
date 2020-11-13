@@ -1,13 +1,12 @@
 import styled from "styled-components";
 
-
-
 export const FlexContainer = styled.div`
-  margin-top: 30px;
+padding-top: 15px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #002ea2;
+  color: black;
+  padding-bottom: 15px;
 `;
 
 export const Logo = styled.div`
@@ -20,7 +19,7 @@ export const Logo = styled.div`
 export const Circle = styled.div`
   height: 20px;
   width: 20px;
-  background-color: #002ea2;
+  background-color: black;
   border-radius: 50%;
   display: inline-block;
   margin-right: 10px;

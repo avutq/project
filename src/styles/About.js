@@ -7,8 +7,9 @@ export const AboutContainer = styled.div`
 export const CenteredText = styled.div`
   padding: 10px 120px 10px 120px;
   text-align: center;
-  font-size: 28px;
-  color: #002ea2;
+  font-size: 32px;
+font-weight: bold;
+  color: black;
 `;
 
 export const SubText = styled.div`
