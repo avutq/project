@@ -7,7 +7,7 @@ function About() {
     <div className="container">
       <AboutContainer>
         <CenteredText>
-          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+          Izmena izmenaaa cupidatat non proident, sunt in culpa qui
           officia deserunt mollit anim id est laborum.
         </CenteredText>
         <SubText>- AVUTEQ TEAM -</SubText>
